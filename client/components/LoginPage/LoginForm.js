@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 import TextFieldGroup from '../TextFieldGroup';
 import { validateInput } from '../../../server/shared/validations/login';
-import { login } from '../../actions/login';
+import { login } from '../../actions/authActions';
 
 
 class LoginForm extends React.Component {

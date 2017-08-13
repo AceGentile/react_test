@@ -2,8 +2,6 @@ import {ADD_FLASH_MESSAGE, DELETE_FLASH_MESSAGE} from '../actions/types';
 import shortid from 'shortid';
 
 export default (state = [], action = {}) => {
-  console.log('in reducerr', action.type);
-
   switch(action.type) {
     case ADD_FLASH_MESSAGE:
       return [
