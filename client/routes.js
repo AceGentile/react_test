@@ -4,6 +4,7 @@ import App from './components/App';
 import Greetings from './components/Greetings';
 import SignupPage from './components/Signup'
 import LoginPage from './components/LoginPage'
+import NewEventPage from './components/events/NewEventPage';
 
 export default (
   <Route path="/" component={App} >
@@ -11,5 +12,6 @@ export default (
     <Route path="signup" component={SignupPage} />
     <Route path="login" component={LoginPage} />
     <Route path="path" component={Greetings} />
+    <Route path="new-event" component={NewEventPage} />
   </Route>
 )
