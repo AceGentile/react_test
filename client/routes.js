@@ -10,5 +10,6 @@ export default (
     <IndexRoute component={Greetings} />
     <Route path="signup" component={SignupPage} />
     <Route path="login" component={LoginPage} />
+    <Route path="path" component={Greetings} />
   </Route>
 )
